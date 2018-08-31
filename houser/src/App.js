@@ -13,17 +13,13 @@ import Wizard from './component/Wizard/Wizard';
 class App extends Component {
   render() {
     return (
-      <hashrouter>
       <div className="App">
         <header className="App-header">
         </header>
-          <Dashboard/>
           <Header/>
           <House/>
-          <Wizard/>
-          <Routes/>
+          {/* <Routes/> */}
       </div>
-     </hashrouter>
     );
   }
 }
